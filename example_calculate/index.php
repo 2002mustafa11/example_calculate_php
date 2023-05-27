@@ -265,6 +265,13 @@ echo mycalculate($bowss),'<br>';
 echo 4+(2*3)-2;
     
   echo '<hr>';
+#Multiplication table
+for ($n=2; $n < 10; $n++) { 
+    echo "$n<*><br>";
+    for ($i=1; $i < 10; $i++) { 
+    echo $i*$n,'<br>';
+}
+}
 /*
 $expression = '4+4-2*3-2';
 $tokens = str_split($expression);
